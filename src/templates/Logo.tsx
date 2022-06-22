@@ -10,7 +10,9 @@ const Logo = (props: ILogoProps) => {
     : 'font-semibold text-xl';
 
   return (
-    <span className={`text-gray-900 grid place-content-center place-items-center ${fontStyle}`}>
+    <span
+      className={`text-gray-900 grid place-content-center place-items-center ${fontStyle}`}
+    >
       <img
         className="h-28 rounded-full"
         src="./assets/images/instagram_prof.png"
