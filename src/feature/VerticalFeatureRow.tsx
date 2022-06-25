@@ -7,6 +7,7 @@ type IVerticalFeatureRowProps = {
   site_url: string;
   fa: any;
   color: string;
+  bgcolor: string;
 };
 
 const VerticalFeatureRow = (props: IVerticalFeatureRowProps) => {
@@ -33,7 +34,11 @@ const VerticalFeatureRow = (props: IVerticalFeatureRowProps) => {
           className="grid grid-cols-4 gap-1 items-center"
           href={`${props.site_url}`}
         >
-          <SnsFa faicon={props.fa} facolor={props.color}></SnsFa>
+          <SnsFa
+            faicon={props.fa}
+            facolor={props.color}
+            fabgcolor={props.bgcolor}
+          ></SnsFa>
           <span className="col-span-2">{props.title}</span>
         </a>
       </div>

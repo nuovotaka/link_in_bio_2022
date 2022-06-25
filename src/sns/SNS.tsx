@@ -6,6 +6,7 @@ import className from 'classnames';
 type ISNSProps = {
   faicon: any;
   facolor: string;
+  fabgcolor: string;
 };
 
 const SnsFa = (props: ISNSProps) => {
@@ -14,7 +15,8 @@ const SnsFa = (props: ISNSProps) => {
     'h-12',
     'w-12',
     'p-1.5',
-    'fill-current'
+    'fill-current',
+    `${props.fabgcolor}`
   );
 
   return (
