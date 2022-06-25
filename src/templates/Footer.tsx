@@ -56,7 +56,7 @@ function Footer() {
                 </a>
               </Link>
 
-              <Link href="https://www.instagram.com/takahiro_723/">
+              <Link href="https://opensea.io/collection/t723hmm">
                 <a>
                   <GiSailboat
                     className="inline-block h-10 w-10 fill-current"
