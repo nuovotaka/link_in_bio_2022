@@ -8,6 +8,7 @@ import {
   FaYoutube,
 } from 'react-icons/fa';
 import { GiSailboat } from 'react-icons/gi';
+import { TiWarning } from 'react-icons/ti';
 
 type ISNSProps = {
   faicon: string;
@@ -78,7 +79,15 @@ const SnsFa = (props: ISNSProps) => {
         </div>
       );
     default:
-      return <div className={SnsClass}></div>;
+      return (
+        <div className={SnsClass}>
+          <TiWarning
+            className={props.fabgcolor}
+            color={props.facolor}
+            size={'2.3rem'}
+          />
+        </div>
+      );
   }
 };
 
