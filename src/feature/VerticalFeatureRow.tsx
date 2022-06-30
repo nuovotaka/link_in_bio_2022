@@ -5,7 +5,7 @@ import { SnsFa } from '../sns/SNS';
 type IVerticalFeatureRowProps = {
   title: string;
   site_url: string;
-  fa: any;
+  fa: string;
   color: string;
   bgcolor: string;
 };
