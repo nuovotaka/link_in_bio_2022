@@ -5,8 +5,7 @@ import { SnsFa } from '../sns/SNS';
 type IVerticalFeatureRowProps = {
   title: string;
   site_url: string;
-  fa: string;
-  color: string;
+  icon: any;
   bgcolor: string;
 };
 
@@ -34,11 +33,7 @@ const VerticalFeatureRow = (props: IVerticalFeatureRowProps) => {
           className="grid grid-cols-4 gap-1 items-center"
           href={`${props.site_url}`}
         >
-          <SnsFa
-            faicon={props.fa}
-            facolor={props.color}
-            fabgcolor={props.bgcolor}
-          ></SnsFa>
+          <SnsFa faicon={props.icon} bgcolor={props.bgcolor} />
           <span className="col-span-2">{props.title}</span>
         </a>
       </div>
