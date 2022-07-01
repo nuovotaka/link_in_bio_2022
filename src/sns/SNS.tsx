@@ -7,7 +7,7 @@ type ISNSProps = {
   bgcolor: string;
 };
 
-const SnsFa = (props: ISNSProps) => {
+const SnsIcon = (props: ISNSProps) => {
   const SnsClass = className(
     'box-border rounded shadow-md shadow-black/20 inline-block',
     'h-12',
@@ -20,4 +20,4 @@ const SnsFa = (props: ISNSProps) => {
   return <div className={SnsClass}>{props.faicon}</div>;
 };
 
-export { SnsFa };
+export { SnsIcon };
