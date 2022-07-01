@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { ReactElement } from 'react';
 
 import className from 'classnames';
 
 type ISNSProps = {
-  faicon: any;
+  faicon: ReactElement;
   bgcolor: string;
 };
 

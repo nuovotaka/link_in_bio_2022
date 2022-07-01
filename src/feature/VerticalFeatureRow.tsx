@@ -1,3 +1,5 @@
+import { ReactElement } from 'react';
+
 import className from 'classnames';
 
 import { SnsIcon } from '../sns/SNS';
@@ -5,7 +7,7 @@ import { SnsIcon } from '../sns/SNS';
 type IVerticalFeatureRowProps = {
   title: string;
   site_url: string;
-  icon: any;
+  icon: ReactElement;
   bgcolor: string;
 };
 
