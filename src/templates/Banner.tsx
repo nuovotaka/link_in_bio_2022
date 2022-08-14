@@ -20,7 +20,7 @@ const Banner = () => (
       <CTABlogBanner
         title="Nuovotaka Blog"
         subtitle="最近の投稿リスト"
-        url_link="https://blog.nuovotaka.com/blog/"
+        url_link="https://blog.nuovotaka.com/blog/#Recommended"
         img_link="../assets/images/coffee.jpg"
       />
     </div>
