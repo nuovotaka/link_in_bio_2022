@@ -2,15 +2,16 @@ import Link from 'next/link';
 import {
   FaHome,
   FaTwitter,
+  FaMastodon,
   FaYoutube,
   FaInstagramSquare,
 } from 'react-icons/fa';
 import { GiSailboat } from 'react-icons/gi';
 
+import { Logo } from './Logo';
 import { Background } from '../background/Background';
 import { CenteredFooter } from '../footer/CenteredFooter';
 import { Section } from '../layout/Section';
-import { Logo } from './Logo';
 
 function Footer() {
   return (
@@ -38,7 +39,16 @@ function Footer() {
                 </a>
               </Link>
 
-              <Link href="https://www.youtube.com/channel/UCIGPyA3GEOTn1F9-kb8qfAg/featured">
+              <Link href="https://mstdn.jp/@nuovotaka">
+                <a>
+                  <FaMastodon
+                    className="inline-block h-10 w-10 fill-current"
+                    color={'#222'}
+                  />
+                </a>
+              </Link>
+
+              <Link href="https://www.youtube.com/@nuovotakatv">
                 <a>
                   <FaYoutube
                     className="inline-block h-10 w-10 fill-current"

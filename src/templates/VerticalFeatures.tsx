@@ -2,6 +2,7 @@ import {
   FaHome,
   FaInstagramSquare,
   FaTwitter,
+  FaMastodon,
   FaYoutube,
 } from 'react-icons/fa';
 import { GiSailboat } from 'react-icons/gi';
@@ -24,8 +25,14 @@ const VerticalFeatures = () => (
       bgcolor={'bg-white'}
     />
     <VerticalFeatureRow
+      title="Mastodon"
+      site_url="https://mstdn.jp/@nuovotaka"
+      icon={<FaMastodon color={'#3088d4'} size={'2.3rem'} />}
+      bgcolor={'bg-white'}
+    />
+    <VerticalFeatureRow
       title="YouTube"
-      site_url="https://www.youtube.com/channel/UCIGPyA3GEOTn1F9-kb8qfAg/featured"
+      site_url="https://www.youtube.com/@nuovotakatv"
       icon={<FaYoutube color={'#ff0100'} size={'2.3rem'} />}
       bgcolor={'bg-white'}
     />
